@@ -20,5 +20,5 @@ print(transaction)
     EXAMPLE 2: 
       Send money ($1.00) to an email address, with a note
 '''
-transaction = DwollaUser.send_funds(1.00, 'michael@dwolla.com', _keys.pin, 'Everyone loves getting money', None, None, "Email")
+transaction = DwollaUser.send_funds(1.00, 'michael@dwolla.com', _keys.pin, 'Everyone loves getting money', dest_type="Email")
 print(transaction)
