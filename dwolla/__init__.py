@@ -381,7 +381,7 @@ class DwollaUser(object):
         if notes:
             params['notes'] = notes
         if assume_cost:
-            params['assume_cost'] = assume_cost
+            params['assumeCosts'] = assume_cost
         if facil_amount:
             params['facilitatorAmount'] = facil_amount
         if dest_type:
